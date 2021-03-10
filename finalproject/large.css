@@ -1,0 +1,13 @@
+@media screen and (max-width: 1210px) and (min-width: 446px) 
+{
+
+    .grid{
+        display: grid;
+		grid-template-columns: 1fr 1fr 1fr;}
+		
+		.gridless{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;}
+ 
+}
+

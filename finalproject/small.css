@@ -1,0 +1,14 @@
+
+@media only screen and (max-width: 445px) {
+
+    .grid{
+        display: grid;
+		grid-template-columns: 1fr ;}
+		
+		.gridless{
+			display: grid;
+			grid-template-columns: 1fr;}
+			.meet{
+				display: grid;
+				grid-template-columns: 1fr;}
+}
