@@ -34,7 +34,7 @@ if (t > 50 || s < 0) {
 else {
     windChill = ((35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16))*10)/10;
     windChill = Math.round(windChill);
-    document.getElementById('Chill').innerHTML = windChill + "F";
+    document.getElementById('Chill').innerHTML = windChill + " F";
 }
 
 
